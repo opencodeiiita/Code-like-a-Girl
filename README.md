@@ -7,6 +7,7 @@ Code like a Girl is not only an initiative to promote said students but also bui
 * [Archisha Baranwal](https://github.com/Archies11)
 * [Palak Mittal](https://github.com/palak2001)
 * [Pavika Chaudhary](https://github.com/pavikachaudhary) 
+* [Cheena](https://github.com/griffy06)
 
 //Enter your name here and link to your github
 

@@ -18,3 +18,4 @@ Code like a Girl is not only an initiative to promote said students but also bui
 * [Payili Vangmayi](https://github.com/hermoine2002)
 * [Medha Balani](https://github.com/medhabalani)
 
+* [Atithi kumari](https://github.com/Atithi360)

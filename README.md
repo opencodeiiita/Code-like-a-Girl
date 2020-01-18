@@ -13,5 +13,7 @@ Code like a Girl is not only an initiative to promote said students but also bui
 * [Cheena](https://github.com/griffy06)
 * [Ananya Agarwal](https://github.com/aawizard)
 * [Rishika Agarwal](https://github.com/rishika8910)
+* [Jyotika Bhatti](https://github.com/Jyotika999)
+
 //Enter your name here and link to your github
 

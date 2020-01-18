@@ -1,7 +1,7 @@
 # Code like a Girl
 
 Every year, Opencode houses a 'Girls only Repository' with the sole aim to encourage female developers to contribute to opensource. This year, 
-Code like a Girl is not only an initiative to promote said students but also build a website that can aid future developers navigate through opensource.  
+Code like a Girl is not only an initiative to promote said students but also build a website that can aid future developers navigate through opensource.  qwwerttt
 
 # Contributors  
 * [Archisha Baranwal](https://github.com/Archies11)

@@ -3,6 +3,7 @@
 Every year, Opencode houses a 'Girls only Repository' with the sole aim to encourage female developers to contribute to opensource. This year, 
 Code like a Girl is not only an initiative to promote said students but also build a website that can aid future developers navigate through opensource. 
 
+
 # Contributors  
 * [Archisha Baranwal](https://github.com/Archies11)
 * [Palak Mittal](https://github.com/palak2001)
@@ -17,5 +18,5 @@ Code like a Girl is not only an initiative to promote said students but also bui
 * [Aarushi](https://github.com/xxx32)
 * [Payili Vangmayi](https://github.com/hermoine2002)
 * [Medha Balani](https://github.com/medhabalani)
-
 * [Atithi kumari](https://github.com/Atithi360)
+* [Naina Kumari](https://github.com/iit2019004)

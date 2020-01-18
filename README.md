@@ -5,6 +5,6 @@ Code like a Girl is not only an initiative to promote said students but also bui
 
 # Contributors  
 * [Archisha Baranwal](https://github.com/Archies11)   
-* [Pavika Chaudhary](https://github.com/pavikachaudhary)
+* [Pavika Chaudhary](https://github.com/pavikachaudhary)   
 //Enter your name here and link to your githhub
 

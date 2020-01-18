@@ -20,3 +20,5 @@ Code like a Girl is not only an initiative to promote said students but also bui
 * [Medha Balani](https://github.com/medhabalani)
 * [Atithi kumari](https://github.com/Atithi360)
 * [Naina Kumari](https://github.com/iit2019004)
+* [Nidhi kamewar](https://github.com/xyz1506)
+

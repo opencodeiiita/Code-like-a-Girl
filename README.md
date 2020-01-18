@@ -10,3 +10,4 @@ Code like a Girl is not only an initiative to promote said students but also bui
 
 //Enter your name here and link to your github
 
+* [Atithi kumari](https://github.com/Atithi360)

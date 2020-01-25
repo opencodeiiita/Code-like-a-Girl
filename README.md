@@ -24,3 +24,5 @@ Code like a Girl is not only an initiative to promote said students but also bui
 * [Nidhi kamewar](https://github.com/xyz1506)
 * [Priyansha Gupta](https://github.com/partofheartpri10)
 * [Snehalreet Kaur](https://github.com/snehal199)
+* [Riya Jawandhiya](https://github.com/RiyaJ2311)
+

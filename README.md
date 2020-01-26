@@ -4,11 +4,14 @@ Every year, Opencode houses a 'Girls only Repository' with the sole aim to encou
 Code like a Girl is not only an initiative to promote said students but also build a website that can aid future developers navigate through opensource. 
 
 
+
+
+
 # Contributors  
 * [Archisha Baranwal](https://github.com/Archies11)
 * [Palak Mittal](https://github.com/palak2001)
 * [Pavika Chaudhary](https://github.com/pavikachaudhary)
-* [Muskan Deep Kaur](https://github.com/mendelevium28)  
+* [Muskan Deep Kaur](https://github.com/mendelevium28)
 * [Priya Bhagat](https://github.com/tony-stark-rdj)
 * [Sneha Gupta](https://github.com/sneha1010)
 * [Cheena](https://github.com/griffy06)

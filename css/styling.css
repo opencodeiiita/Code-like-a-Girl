@@ -1,6 +1,6 @@
 #button {
     display: inline-block;
-    background-color: #FF9800;
+    background-color: rgb(46, 9, 106);
     width: 50px;
     height: 50px;
     text-align: center;
@@ -35,4 +35,123 @@
     visibility: visible;
   }
   
+  
+  .subheading{
+    padding: 30px 0 50px;
+	background: white;
+	text-align: center;
+    position: relative;
+	margin-bottom: 40px;
+	font-size: 40px;
+	font-weight: 400;
+	text-decoration-color : #141371;
+	text-align: center;
+	line-height: 60px;
+	letter-spacing: 1px;
+
+  }
+  .box {
+    height: 200px;
+    background:#85d89a;
+    width: 33.3%;
+    margin: 5px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+  }
+  
+  .box:hover .the-content-box {
+    transform: translateY(0%);
+    background: rgb(47, 29, 89);
+    color: white;
+    border-radius: 25px;
+  }
+  
+  .box:hover .the-content-box hr {
+    width: 50%;
+    transition-delay: 400ms;
+
+  }
+  
+  .box:hover .the-content-box p {
+    opacity: 1;
+    transition: all 400ms ease;
+    transform: translateY(20%);
+    transition-delay: 600ms;
+    border-radius: 25px; 
+  }
+  
+  .box:hover .the-content-box a {
+    opacity: 1;
+    transform: translateX(0%);
+    transition-delay: 900ms;
+  }
+  
+  .box-inner {
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    top: 10%;
+    left: 5%;
+    overflow: hidden;
+  }
+  
+  .the-content-box {
+    border-radius: 25px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: rgb(216, 244, 245);
+    color: rgb(3, 41, 55);
+    transform: translateY(77%);
+    transition: all 600ms ease;
+  }
+  
+  .the-content-box h1 {
+    padding: 0.2em 0em 0em 0em;
+    margin: 0;
+    font-family: Courier New;
+  }
+  
+  .the-content-box hr {
+    background: #F5FBAD;
+    height: 4px;
+    border: none;
+    margin:2em 0em 0em 0em;
+    width: 0;
+    transition: all 400ms ease;
+  }
+  
+  .the-content-box p {
+    letter-spacing: 1px;
+    opacity: 0;
+    font-family: Oldtown !important;
+    transition: all 900ms ease;
+    transform: translateY(60%);
+    font-weight: lighter;
+  }
+  
+  .the-content-box a {
+    display: inline-block;
+    /* background: #4A89CD; */
+    font-family: Courier New;
+    padding: 0.5em 0.5em;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    position: relative;
+    transition: all 600ms ease;
+    opacity: 0;
+    transform: translateX(20%);
+  }
+  
+  .the-content-box a:hover {
+    background: #7B3136;
+  }
+  
+  .content-box-inner {
+    padding: 0em 1em;
+  }
+
   

@@ -49,17 +49,10 @@
     background: #55ACEE;
     color: white;
   }
+
   </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-  <link rel="stylesheet" href="css/styling.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
-
-</head>
-<body>
 
 
 <nav class="navbar  bg-dark navbar-dark" role="navigation">
@@ -87,13 +80,6 @@
     <p>Every year, Opencode houses a 'Girls only Repository' with the sole aim to encourage female developers to contribute to opensource. This year, Code like a Girl is not only an initiative to promote said students but also build a website that can aid future developers navigate through opensource.</p>
   </div>
 
-</body>
-<div class="footer">
-  <h6>GeekHaven IIITA</h6>
-  <a href="#" class="fa fa-facebook"></a>
-  <a href="#" class="fa fa-twitter"></a>
-  <a href="#" class="fa fa-instagram"></a>
-</div>
 <script>
   var btn = $('#button');
 
@@ -111,17 +97,12 @@ btn.on('click', function(e) {
 });
 </script>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <h1>Code-like-a-Girl</h1>
-  <p>Every year, Opencode houses a 'Girls only Repository' with the sole aim to encourage female developers to contribute to opensource. This year, Code like a Girl is not only an initiative to promote said students but also build a website that can aid future developers navigate through opensource.</p> 
-</div>
-
 <div class="mt-5"></div>
     <div class="subheading">Contributors</div>
     <div id="contributors" class="container">
       <div class="row justify-content-around mb-5 ">
-        
-       
+
+
         <div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded" style="background-image: url('contact.jpg');">
           <div class="box-inner">
             <div class="the-content-box">
@@ -333,27 +314,14 @@ btn.on('click', function(e) {
             </div>
           </div>
         </div>
-       
+
       </div>
     </div>
-
-    <a id="button"></a>
-    <script>
-      
-      var btn = $('#button');
-    
-    $(window).scroll(function() {
-      if ($(window).scrollTop() > 300) {
-        btn.addClass('show');
-      } else {
-        btn.removeClass('show');
-      }
-    });
-    
-    btn.on('click', function(e) {
-      e.preventDefault();
-      $('html, body').animate({scrollTop:0}, '300');
-    });
-    </script>
 </body>
+<div class="footer">
+  <h6>GeekHaven IIITA</h6>
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-instagram"></a>
+</div>
 </html>

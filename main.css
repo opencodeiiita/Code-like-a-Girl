@@ -1,0 +1,28 @@
+body {
+  overflow: hidden;
+}
+
+
+
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: gray;
+  z-index: 99;
+}
+
+#status {
+  width: 600px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-image: url(Code-like-a-Girl-logo-2.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+}

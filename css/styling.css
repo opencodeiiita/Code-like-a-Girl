@@ -54,7 +54,8 @@
     height: 200px;
     background:#85d89a;
     width: 33.3%;
-    margin: 5px;
+    margin: 20px;
+    padding: 6px;
     background-position: center;
     background-size: cover;
     position: relative;

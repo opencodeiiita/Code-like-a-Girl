@@ -337,12 +337,19 @@
     
     btn.on('click', function(e) {
       e.preventDefault();
-      $('html, body').animate({scrollTop:0}, '500');
+      $('html, body').animate({scrollTop:0}, '5000');
     });
 
 var slideIndex = 0;
 showSlides();
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");

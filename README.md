@@ -29,5 +29,4 @@ Code like a Girl is not only an initiative to promote said students but also bui
 * [Snehalreet Kaur](https://github.com/snehal199)
 * [Riya Jawandhiya](https://github.com/RiyaJ2311)
 * [Ananya Mohanty](https://github.com/ananya-mohanty)
-* [Rohini Mishra](https://github.com/Rohini13)
 

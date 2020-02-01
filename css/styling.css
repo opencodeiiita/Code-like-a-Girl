@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 #button {
     display: inline-block;
     background-color: rgb(46, 9, 106);

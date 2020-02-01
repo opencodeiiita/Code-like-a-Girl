@@ -29,6 +29,9 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#about">About</a>
+      </li> 
+       <li class="nav-item">
+        <a class="nav-link" href="#contri">Contributors</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Contact</a>
@@ -55,7 +58,7 @@
 </div>
 
 <div class="mt-5"></div>
-    <div class="subheading">Contributors</div>
+    <div class="subheading" id="contri">Contributors</div>
     <div id="contributors" class="container">
       <div class="row justify-content-around mb-5 ">
         <div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded" style="background-image: url('contact.jpg');">
@@ -102,13 +105,15 @@
             </div>
           </div>
         </div>
-        <div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded" style="background-image: url('contact.jpg');">
+        <div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded" style="background-image: url('data/cheena(1).jpg');">
           <div class="box-inner">
             <div class="the-content-box">
               <div class="content-box-inner">
                 <h2>Cheena</h2>
                 <hr>
                 <a href="https://github.com/griffy06"><i class="fa fa-github" style="font-size: 2.2em"></i></a>
+                <a href="https://facebook.com/cheena.budhiraja.7"><i class="fa fa-facebook" style="font-size: 2.2em"></i></a>
+                <a href="https://www.linkedin.com/in/cheena-budhiraja-467118173"><i class="fa fa-linkedin" style="font-size: 2.2em"></i></a>
               </div>
             </div>
           </div>
@@ -272,15 +277,25 @@
           </div>
         </div>
 
+       
+   
 
-<center><div class="block_1 h_line">____________________________________________________________</div></center>
-    <h1 style="text-align:center;">  __<sub>About Us </sub>__</h1>
-    <div class="container">
-      <div class="lead">
-        <br></br>
-      <p>Every year, Opencode houses a 'Girls only Repository' with the sole aim to encourage female developers to contribute to opensource. This year, Code like a Girl is not only an initiative to promote said students but also build a website that can aid future developers navigate through opensource.
-      <br>We aim to motivate women towards technology and opensource.</p>
-      <p > <center class="p-3 mb-2 bg-info text-white"> Want to learn and explore more !<br> Welcome </br><center></p>
+<div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded" style="background-image: url('data/rohini.jpg');">
+          <div class="box-inner">
+            <div class="the-content-box">
+              <div class="content-box-inner">
+                <h2>Rohini Mishra</h2>
+                <hr>
+                <a href="https://github.com/Rohini13"><i class="fa fa-github" style="font-size: 2.2em"></i></a>
+                <a href="https://www.facebook.com/Rohini13201"><i class="fa fa-facebook" style="font-size: 2.2em"></i></a>
+                <a href="https://www.linkedin.com/in/rohini13/"><i class="fa fa-linkedin" style="font-size: 2.2em"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+
     </div>
   </div>
 <!--
@@ -371,11 +386,12 @@ function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+
+    slides[i].style.display = "none"; 
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
     </script>

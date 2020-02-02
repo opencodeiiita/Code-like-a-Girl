@@ -48,7 +48,13 @@
         <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#about">About</a>
+      </li> 
+       <li class="nav-item">
+        <a class="nav-link" href="#contri">Contributors</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#gallery">Gallery</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Contact</a>
@@ -74,11 +80,9 @@
 </div>
 
 <div class="mt-5"></div>
-    <div class="subheading">Contributors</div>
+    <div class="subheading" id="contri">Contributors</div>
     <div id="contributors" class="container">
       <div class="row justify-content-around mb-5 ">
-
-
         <div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded" style="background-image: url('contact.jpg');">
           <div class="box-inner">
             <div class="the-content-box">
@@ -123,13 +127,15 @@
             </div>
           </div>
         </div>
-        <div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded" style="background-image: url('contact.jpg');">
+        <div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded" style="background-image: url('data/cheena(1).jpg');">
           <div class="box-inner">
             <div class="the-content-box">
               <div class="content-box-inner">
                 <h2>Cheena</h2>
                 <hr>
                 <a href="https://github.com/griffy06"><i class="fa fa-github" style="font-size: 2.2em"></i></a>
+                <a href="https://facebook.com/cheena.budhiraja.7"><i class="fa fa-facebook" style="font-size: 2.2em"></i></a>
+                <a href="https://www.linkedin.com/in/cheena-budhiraja-467118173"><i class="fa fa-linkedin" style="font-size: 2.2em"></i></a>
               </div>
             </div>
           </div>
@@ -292,10 +298,26 @@
             </div>
           </div>
         </div>
+       <div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded" style="background-image: url('data/rohini.jpg');">
+          <div class="box-inner">
+            <div class="the-content-box">
+              <div class="content-box-inner">
+                <h2>Rohini Mishra</h2>
+                <hr>
+                <a href="https://github.com/Rohini13"><i class="fa fa-github" style="font-size: 2.2em"></i></a>
+                <a href="https://www.facebook.com/Rohini13201"><i class="fa fa-facebook" style="font-size: 2.2em"></i></a>
+                <a href="https://www.linkedin.com/in/rohini13/"><i class="fa fa-linkedin" style="font-size: 2.2em"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
-    </div>
 
+    </div>
+  </div>
+<!--
+    -----------
     -----------
     GALLERY
     -----------
@@ -350,7 +372,6 @@
   <span class="dot" onclick="currentSlide(4)"></span>
   <span class="dot" onclick="currentSlide(5)"></span>
 </div>
-
     <script>
 
       var btn = $('#button');
@@ -383,14 +404,14 @@ function showSlides() {
   var slides = document.getElementsByClassName("mySlides");
   for (i = 0; i < slides.length; i++) {
 
-    slides[i].style.display = "none";
+    slides[i].style.display = "none"; 
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
-</script>
+    </script>
 </body>
 <footer class="page-footer">
       <div class="w3-container w3-grey">

@@ -2,18 +2,64 @@
 <html lang="en">
 <head>
   <title>Code-like-a-Girl</title>
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/styling.css">
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/styling.css">
 <style>
-.fa-instagram {
+.loader {
+	background: none repeat scroll 0 0 #333333;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999; 
+}
+
+
+.loader .loader_inner {
+	background-image: url("Code-like-a-Girl-logo-2.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #333333;
+	height: 500px;
+	width: 500px;
+	margin-top: -200px;
+	margin-left: -300px;
+	left: 50%;
+	top: 50%;
+	position: absolute; 
+}
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+  .fa-instagram {
   background: #125688;
   color: white;
 }
@@ -29,15 +75,22 @@
 .fa-twitter {
   background: #55ACEE;
   color: white;
-}
+  }
 </style>
 
 </head>
 <body>
+  <a id="button"></a>
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Code-like-a-Girl</h1>
+  <p>Every year, Opencode houses a 'Girls only Repository' with the sole aim to encourage female developers to contribute to opensource. This year, Code like a Girl is not only an initiative to promote said students but also build a website that can aid future developers navigate through opensource.</p> 
+</div>
 
+<div class="loader">
+	<div class="loader_inner"></div>
+</div>
 
 <nav class="navbar  bg-dark navbar-dark" role="navigation">
-
   <a class="navbar-brand" href="#">Opencode'20</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
@@ -62,6 +115,31 @@
     </ul>
   </div>
 </nav>
+
+<script>
+  var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+</script>
+<script>
+$(window).on('load', function() { 
+  $('#status').fadeOut(); 
+  $('#preloader').delay(350).fadeOut('slow'); 
+  $('body').delay(350).css({'overflow':'visible'});
+});
+</script>
+</body>
 
 <div class="jumbotron text-center" style="margin-bottom:0">
   <h1>Code-like-a-Girl</h1>
@@ -263,13 +341,14 @@
             </div>
           </div>
         </div>
-        <div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded" style="background-image: url('contact.jpg');">
+        <div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded" style="background-image: url('data/snehal.jpg');">
           <div class="box-inner">
             <div class="the-content-box">
               <div class="content-box-inner">
                 <h2>Snehalreet Kaur</h2>
                 <hr>
                 <a href="https://github.com/snehal199"><i class="fa fa-github" style="font-size: 2.2em"></i></a>
+                <a href="https://www.facebook.com/snehalreet.kaur.9"><i class="fa fa-facebook" style="font-size: 2.2em"></i></a>
               </div>
             </div>
           </div>
@@ -412,6 +491,29 @@ function showSlides() {
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
     </script>
+	<script>
+	$(window).on("load",function() {
+
+	$(".loader_inner").fadeOut();
+	$(".loader").delay(400).fadeOut("slow");
+    });
+</script>
+
+<br/>
+<br/> 
+<br/> 
+<div class="subheading">Sponsors</div>
+ <div class="container">
+  
+
+ <div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded"> <a href="https://balsamiq.com/" target="_blank"><img src="https://media.balsamiq.com/files/company/balsamiq-logo-print.png" width="100%" height="100%"></a></div> 
+
+<div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded"><a href="https://www.bugsee.com/" target="_blank"><img src="https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1484269323/otsfffr4qfcbmh2eahop.jpg" width="100%" height="100%"></a></div>
+
+<div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded"><a href="https://cloudsploit.com/" target="_blank"><img src="https://miro.medium.com/max/5224/1*Be7E-iX5QZ2utck5Clnq9Q.png" width="100%" height="100%"></a></div> 
+
+</div>
+
 </body>
 <footer class="page-footer">
       <div class="w3-container w3-grey">

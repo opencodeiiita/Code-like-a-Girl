@@ -27,6 +27,7 @@
 	z-index: 9999; 
 }
 
+
 .loader .loader_inner {
 	background-image: url("Code-like-a-Girl-logo-2.gif");
 	background-size: cover;
@@ -41,6 +42,24 @@
 	top: 50%;
 	position: absolute; 
 }
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+
 </head>
 <body>
   <a id="button"></a>
@@ -78,13 +97,19 @@
         <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#about">About</a>
+      </li> 
+       <li class="nav-item">
+        <a class="nav-link" href="#contri">Contributors</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#gallery">Gallery</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Contact</a>
-      </li>    
+      </li>
     </ul>
-  </div>  
+  </div>
 </nav>
 
 <script>
@@ -114,15 +139,25 @@ $(window).on('load', function() {
 
 <div class="jumbotron text-center" style="margin-bottom:0">
   <h1>Code-like-a-Girl</h1>
+
   <p>Every year, Opencode houses a 'Girls only Repository' with the sole aim to encourage female developers to contribute to opensource. This year, Code like a Girl is not only an initiative to promote said students but also build a website that can aid future developers navigate through opensource.</p> 
+</div>
+<!-- About us -->
+<div id="about" class="about-us-container section-container section-container-gray-bg">
+  <div class="container">
+     
+                  <center>  <h1 style="text-align:center;">  __<sub>About Us </sub>__</h1></center>
+                  <p>Every year, Opencode houses a 'Girls only Repository' with the sole aim to encourage female developers to contribute to opensource. This year, Code like a Girl is not only an initiative to promote said students but also build a website that can aid future developers navigate through opensource.
+                  <br>We aim to motivate women towards technology and opensource.</p>
+                  <p > <center class="p-3 mb-2 bg-info text-white"> Want to learn and explore more !<br> Welcome </br><center></p>
+         
+  </div>
 </div>
 
 <div class="mt-5"></div>
-    <div class="subheading">Contributors</div>
+    <div class="subheading" id="contri">Contributors</div>
     <div id="contributors" class="container">
       <div class="row justify-content-around mb-5 ">
-        
-       
         <div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded" style="background-image: url('contact.jpg');">
           <div class="box-inner">
             <div class="the-content-box">
@@ -167,13 +202,15 @@ $(window).on('load', function() {
             </div>
           </div>
         </div>
-        <div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded" style="background-image: url('contact.jpg');">
+        <div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded" style="background-image: url('data/cheena(1).jpg');">
           <div class="box-inner">
             <div class="the-content-box">
               <div class="content-box-inner">
                 <h2>Cheena</h2>
                 <hr>
                 <a href="https://github.com/griffy06"><i class="fa fa-github" style="font-size: 2.2em"></i></a>
+                <a href="https://facebook.com/cheena.budhiraja.7"><i class="fa fa-facebook" style="font-size: 2.2em"></i></a>
+                <a href="https://www.linkedin.com/in/cheena-budhiraja-467118173"><i class="fa fa-linkedin" style="font-size: 2.2em"></i></a>
               </div>
             </div>
           </div>
@@ -301,13 +338,14 @@ $(window).on('load', function() {
             </div>
           </div>
         </div>
-        <div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded" style="background-image: url('contact.jpg');">
+        <div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded" style="background-image: url('data/snehal.jpg');">
           <div class="box-inner">
             <div class="the-content-box">
               <div class="content-box-inner">
                 <h2>Snehalreet Kaur</h2>
                 <hr>
                 <a href="https://github.com/snehal199"><i class="fa fa-github" style="font-size: 2.2em"></i></a>
+                <a href="https://www.facebook.com/snehalreet.kaur.9"><i class="fa fa-facebook" style="font-size: 2.2em"></i></a>
               </div>
             </div>
           </div>
@@ -336,27 +374,124 @@ $(window).on('load', function() {
             </div>
           </div>
         </div>
+
+       
+   
+
+<div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded" style="background-image: url('data/rohini.jpg');">
+          <div class="box-inner">
+            <div class="the-content-box">
+              <div class="content-box-inner">
+                <h2>Rohini Mishra</h2>
+                <hr>
+                <a href="https://github.com/Rohini13"><i class="fa fa-github" style="font-size: 2.2em"></i></a>
+                <a href="https://www.facebook.com/Rohini13201"><i class="fa fa-facebook" style="font-size: 2.2em"></i></a>
+                <a href="https://www.linkedin.com/in/rohini13/"><i class="fa fa-linkedin" style="font-size: 2.2em"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
        
       </div>
-    </div>
 
-    <a id="button"></a>
+    </div>
+  </div>
+<!--
+    -----------
+    -----------
+    GALLERY
+    -----------
+    ----------
+     -->
+
+     <!-- Slideshow container -->
+     <div class="mt-5"></div>
+    <div class="subheading">GALLERY</div>
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+
+    <img src="data/pic1.jpg" style="width:100%">
+
+  </div>
+
+  <div class="mySlides fade">
+
+    <img src="data/pic2.jpg" style="width:100%">
+
+  </div>
+
+  <div class="mySlides fade">
+
+    <img src="data/pic3.jpg" style="width:100%">
+
+  </div>
+
+  <div class="mySlides fade">
+
+    <img src="data/pic4.jpg" style="width:100%">
+
+  </div>
+  <div class="mySlides fade">
+
+    <img src="data/pic5.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+
     <script>
-      
+
       var btn = $('#button');
-    
+
     $(window).scroll(function() {
-      if ($(window).scrollTop() > 300) {
+      if ($(window).scrollTop() > 500) {
         btn.addClass('show');
       } else {
         btn.removeClass('show');
       }
     });
-    
+
     btn.on('click', function(e) {
       e.preventDefault();
-      $('html, body').animate({scrollTop:0}, '300');
+      $('html, body').animate({scrollTop:0}, '5000');
     });
+
+var slideIndex = 0;
+showSlides();
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
     </script>
 	<script>
 	$(window).on("load",function() {
@@ -365,5 +500,21 @@ $(window).on('load', function() {
 	$(".loader").delay(400).fadeOut("slow");
     });
 </script>
+
+<br/>
+<br/> 
+<br/> 
+<div class="subheading">Sponsors</div>
+ <div class="container">
+  
+
+ <div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded"> <a href="https://balsamiq.com/" target="_blank"><img src="https://media.balsamiq.com/files/company/balsamiq-logo-print.png" width="100%" height="100%"></a></div> 
+
+<div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded"><a href="https://www.bugsee.com/" target="_blank"><img src="https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1484269323/otsfffr4qfcbmh2eahop.jpg" width="100%" height="100%"></a></div>
+
+<div class="box col-md-3 col-sm-3 col-xs-3 mb-2 shadow-lg rounded"><a href="https://cloudsploit.com/" target="_blank"><img src="https://miro.medium.com/max/5224/1*Be7E-iX5QZ2utck5Clnq9Q.png" width="100%" height="100%"></a></div> 
+
+</div>
+
 </body>
 </html>

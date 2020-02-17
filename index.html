@@ -2,16 +2,46 @@
 <html lang="en">
 <head>
   <title>Code-like-a-Girl</title>
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/styling.css">
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+<link rel="stylesheet" href="css/styling.css">
+<style>
+.loader {
+	background: none repeat scroll 0 0 #333333;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999; 
+}
 
+
+.loader .loader_inner {
+	background-image: url("Code-like-a-Girl-logo-2.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #333333;
+	height: 500px;
+	width: 500px;
+	margin-top: -200px;
+	margin-left: -300px;
+	left: 50%;
+	top: 50%;
+	position: absolute; 
+}
 <style>
 .grid-container {
   display: grid;
@@ -32,10 +62,31 @@
 
 </head>
 <body>
+  <a id="button"></a>
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Code-like-a-Girl</h1>
+  <p>Every year, Opencode houses a 'Girls only Repository' with the sole aim to encourage female developers to contribute to opensource. This year, Code like a Girl is not only an initiative to promote said students but also build a website that can aid future developers navigate through opensource.</p> 
+</div>
 
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/styling.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+
+</style>
+</head>
+<body>
+<div class="loader">
+	<div class="loader_inner"></div>
+</div>
 
 <nav class="navbar  bg-dark navbar-dark" role="navigation">
-
   <a class="navbar-brand" href="#">Opencode'20</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
@@ -60,6 +111,31 @@
     </ul>
   </div>
 </nav>
+
+<script>
+  var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+</script>
+<script>
+$(window).on('load', function() { 
+  $('#status').fadeOut(); 
+  $('#preloader').delay(350).fadeOut('slow'); 
+  $('body').delay(350).css({'overflow':'visible'});
+});
+</script>
+</body>
 
 <div class="jumbotron text-center" style="margin-bottom:0">
   <h1>Code-like-a-Girl</h1>
@@ -417,11 +493,18 @@ function showSlides() {
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
     </script>
+	<script>
+	$(window).on("load",function() {
+
+	$(".loader_inner").fadeOut();
+	$(".loader").delay(400).fadeOut("slow");
+    });
+</script>
 
 <br/>
 <br/> 
 <br/> 
-SPONSORS:
+<div class="subheading">Sponsors</div>
  <div class="container">
   
 
